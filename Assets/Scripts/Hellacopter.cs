@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HellacopterController : MonoBehaviour
+public class Hellacopter : MonoBehaviour
 {
     private Rigidbody2D rb;
     public float alturaDoPulo = 10;
@@ -18,7 +18,8 @@ public class HellacopterController : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             rb.AddForce(Vector2.up * alturaDoPulo, ForceMode2D.Impulse);
-        }else if (Input.GetButtonDown("Fire2"))
+        }
+        else if (Input.GetButtonDown("Fire2"))
         {
             rb.AddForce(Vector2.up * forcaDoFreio, ForceMode2D.Impulse);
         }
