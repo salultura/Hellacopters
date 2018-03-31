@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ParallaxScrolling : MonoBehaviour
 {
-    public float velocidade = 2;
+    [SerializeField] private float velocidade = 2;
     private Vector3 posicaoInicial;
     private float larguraRealDaImagem;
 

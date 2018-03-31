@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GeradorDeObstaculos : MonoBehaviour {
-    public GameObject obstaculo;
-    public float intervaloParaCriacao = 3;
+    [SerializeField] private GameObject obstaculo;
+    [SerializeField] private float intervaloParaCriacao = 3;
     private float tempoDaUltimaCriacao;
 
     void Start () {

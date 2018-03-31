@@ -5,9 +5,9 @@ using UnityEngine;
 public class Obstaculo : MonoBehaviour
 {
 
-    public float velocidade = 5;
-    public float posicaoMinima = -3;
-    public float posicaoMaxima = 0;
+    [SerializeField] private float velocidade = 5;
+    [SerializeField] private float posicaoMinima = -3;
+    [SerializeField] private float posicaoMaxima = 0;
     private float sorteiaPosicaoEmY;
 
     private void Awake()

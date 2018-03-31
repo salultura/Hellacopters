@@ -21,9 +21,9 @@ GameObject:
   - component: {fileID: 4460169421690800}
   - component: {fileID: 212692423096269964}
   - component: {fileID: 95153283809035638}
-  - component: {fileID: 50437265925954484}
-  - component: {fileID: 70541424893709076}
   - component: {fileID: 114317262747980174}
+  - component: {fileID: 70541424893709076}
+  - component: {fileID: 50437265925954484}
   m_Layer: 0
   m_Name: BlueHellacopter
   m_TagString: Untagged
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &70541424893709076
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
@@ -107,8 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa65054b63aed8341a06530f352f12b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alturaDoPulo: 10
-  forcaFreio: -5
+  alturaDoPulo: 3
 --- !u!212 &212692423096269964
 SpriteRenderer:
   m_ObjectHideFlags: 1
